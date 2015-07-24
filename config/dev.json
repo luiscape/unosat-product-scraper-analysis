@@ -1,0 +1,6 @@
+{
+  "production": false,
+  "hdx_site": "https://test-data.hdx.rwlabs.org",
+  "hdx_key": "xxx",
+  "auth": ["dataproject", "humdata"]
+}
