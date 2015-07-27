@@ -1,0 +1,449 @@
+[{
+    "n_shapefiles": 7,
+    "n_files": 42,
+    "resource_id": "7c0704e9-7270-4375-8961-63ad3ac2326e",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR_shp.zip",
+    "dataset_id": "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "file_path": "data/FL20150703MMR_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 97,
+    "resource_id": "b6ee35e1-ad8f-4bb5-8ffa-49dc6722781a",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+    "dataset_id": "geodata-of-flood-waters-over-western-rakhine-state-myanmar-july-15-2015",
+    "file_path": "data/FL20150703MMR.gdb.zip"
+}, {
+    "n_shapefiles": 7,
+    "n_files": 42,
+    "resource_id": "b6d45fec-74be-44c5-ae1a-1400e211f9b5",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR_shp.zip",
+    "dataset_id": "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "file_path": "data/FL20150703MMR_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 97,
+    "resource_id": "9787f1af-e92e-429b-9634-066d235cae54",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/MM/FL20150703MMR/FL20150703MMR.gdb.zip",
+    "dataset_id": "geodata-of-flood-waters-over-northwest-rakhine-state-myanmar-july-13-2015",
+    "file_path": "data/FL20150703MMR.gdb.zip"
+}, {
+    "n_shapefiles": 1,
+    "n_files": 6,
+    "resource_id": "8f820f01-0351-49a2-94a0-17598db50081",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/YE/CE20150402YEM/CE20150402YEM_Taiz_20150626_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-taiz-city-at-taziah-district-yemen-july-03-2015",
+    "file_path": "data/CE20150402YEM_Taiz_20150626_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 67,
+    "resource_id": "d576b292-fe70-468f-a9df-e925db59642b",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/YE/CE20150402YEM/CE20150402YEM_Taiz_20150626_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-taiz-city-at-taziah-district-yemen-july-03-2015",
+    "file_path": "data/CE20150402YEM_Taiz_20150626_gdb.zip"
+}, {
+    "n_shapefiles": 5,
+    "n_files": 30,
+    "resource_id": "e769b6c5-0b53-4d66-8a81-b04656c16155",
+    "resource_url": "http://cern.ch/unosat-maps/SS/CE20131218SSD/Static_Water_Levels_Kalobeyei_Kenya_shp.zip",
+    "dataset_id": "geodata-of-elevation-map-of-kalobeyei-turkana-county-kenya-july-01-2015",
+    "file_path": "data/Static_Water_Levels_Kalobeyei_Kenya_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 56,
+    "resource_id": "2b82ee85-c3fa-4f33-922d-660c91404279",
+    "resource_url": "http://cern.ch/unosat-maps/SS/CE20131218SSD/Static_Water_Levels_Kalobeyei_Kenya_gdb.zip",
+    "dataset_id": "geodata-of-elevation-map-of-kalobeyei-turkana-county-kenya-july-01-2015",
+    "file_path": "data/Static_Water_Levels_Kalobeyei_Kenya_gdb.zip"
+}, {
+    "n_shapefiles": 1,
+    "n_files": 6,
+    "resource_id": "213f59d4-c794-40ce-a005-55426a72487e",
+    "resource_url": "http://cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_Gendrasa_shp.zip",
+    "dataset_id": "geodata-of-gendrasa-refugee-camp-maban-county-upper-nile-state-south-sudan-july-01-2015",
+    "file_path": "data/CE20131218SSD_Gendrasa_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 68,
+    "resource_id": "b3f0f42a-98af-46b7-9605-89630bc1c11c",
+    "resource_url": "http://cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_Gendrasa.gdb.zip",
+    "dataset_id": "geodata-of-gendrasa-refugee-camp-maban-county-upper-nile-state-south-sudan-july-01-2015",
+    "file_path": "data/CE20131218SSD_Gendrasa.gdb.zip"
+}, {
+    "n_shapefiles": 2,
+    "n_files": 12,
+    "resource_id": "fbfe0fc9-718f-43f4-a6cd-22ed1bf5ed47",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_Kenya_shp.zip",
+    "dataset_id": "geodata-of-landcover-classification-kalobeyei-turkana-county-kenya-july-01-2015",
+    "file_path": "data/CE20131218SSD_Kenya_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 75,
+    "resource_id": "7e414a9c-5fb7-4a74-9610-df5aa088b346",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_Kenya.gdb.zip",
+    "dataset_id": "geodata-of-landcover-classification-kalobeyei-turkana-county-kenya-july-01-2015",
+    "file_path": "data/CE20131218SSD_Kenya.gdb.zip"
+}, {
+    "n_shapefiles": 2,
+    "n_files": 12,
+    "resource_id": "24d01f60-3e1c-41dd-878c-5d95fb463a95",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_Kenya_shp.zip",
+    "dataset_id": "geodata-of-landcover-classification-kalobeyei-and-kakuma-areas-turkana-county-july-01-2015",
+    "file_path": "data/CE20131218SSD_Kenya_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 75,
+    "resource_id": "61323a3b-6323-41d5-aee8-edbcf1d9fbfa",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_Kenya.gdb.zip",
+    "dataset_id": "geodata-of-landcover-classification-kalobeyei-and-kakuma-areas-turkana-county-july-01-2015",
+    "file_path": "data/CE20131218SSD_Kenya.gdb.zip"
+}, {
+    "n_shapefiles": 2,
+    "n_files": 12,
+    "resource_id": "37f6b2fa-fcf2-4790-a47e-3bcd71286da5",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Sujjo_shp.zip",
+    "dataset_id": "geodata-of-sujjo-idp-camp-azaz-district-aleppo-governorate-syria-june-19-2015",
+    "file_path": "data/CE20130604SYR_Sujjo_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 90,
+    "resource_id": "507d8a2b-337f-4144-84ed-727500cae2e5",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Sujjo.gdb.zip",
+    "dataset_id": "geodata-of-sujjo-idp-camp-azaz-district-aleppo-governorate-syria-june-19-2015",
+    "file_path": "data/CE20130604SYR_Sujjo.gdb.zip"
+}, {
+    "n_shapefiles": 2,
+    "n_files": 12,
+    "resource_id": "132fdf36-4baf-419e-b947-8427db5a0324",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Oncunipar_shp.zip",
+    "dataset_id": "geodata-of-oncunipar-refugee-camp-merkez-district-kilis-province-turkey-june-16-2015",
+    "file_path": "data/CE20130604SYR_Oncunipar_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 88,
+    "resource_id": "202507d1-264b-4ec3-b265-27c1d6cbcea3",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_Oncunipar.gdb.zip",
+    "dataset_id": "geodata-of-oncunipar-refugee-camp-merkez-district-kilis-province-turkey-june-16-2015",
+    "file_path": "data/CE20130604SYR_Oncunipar.gdb.zip"
+}, {
+    "n_shapefiles": 2,
+    "n_files": 12,
+    "resource_id": "fe1b6637-415a-4901-ba17-3d08ddca66a4",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_BabAlSalame_shp.zip",
+    "dataset_id": "geodata-of-bab-al-salame-idp-camp-azaz-district-aleppo-governorate-syria-june-12-2015",
+    "file_path": "data/CE20130604SYR_BabAlSalame_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 90,
+    "resource_id": "ab4ab38f-85b3-4d1d-a941-69cca9427149",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SY/CE20130604SYR/CE20130604SYR_BabAlSalame.gdb.zip",
+    "dataset_id": "geodata-of-bab-al-salame-idp-camp-azaz-district-aleppo-governorate-syria-june-12-2015",
+    "file_path": "data/CE20130604SYR_BabAlSalame.gdb.zip"
+}, {
+    "n_shapefiles": 3,
+    "n_files": 18,
+    "resource_id": "590d907b-f1e1-4201-9775-0eb6ef9b509b",
+    "resource_url": "http://cern.ch/unosat-maps/YE/CE20150402YEM/CE20150402YEM_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-sanaa-international-airport-sanaa-governorate-june-03-2015",
+    "file_path": "data/CE20150402YEM_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 75,
+    "resource_id": "4bde926c-d16c-4d47-8b1e-a75119fd3e83",
+    "resource_url": "http://cern.ch/unosat-maps/YE/CE20150402YEM/CE20150402YEM_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-sanaa-international-airport-sanaa-governorate-june-03-2015",
+    "file_path": "data/CE20150402YEM_gdb.zip"
+}, {
+    "n_shapefiles": 3,
+    "n_files": 18,
+    "resource_id": "2b33a72f-578b-4193-9137-7668c239e417",
+    "resource_url": "http://cern.ch/unosat-maps/YE/CE20150402YEM/CE20150402YEM_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-sanaa-city-sanaa-governorate-yemen-june-03-2015",
+    "file_path": "data/CE20150402YEM_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 75,
+    "resource_id": "8e02a187-f1cc-407f-8a08-d7406c09db10",
+    "resource_url": "http://cern.ch/unosat-maps/YE/CE20150402YEM/CE20150402YEM_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-sanaa-city-sanaa-governorate-yemen-june-03-2015",
+    "file_path": "data/CE20150402YEM_gdb.zip"
+}, {
+    "n_shapefiles": 3,
+    "n_files": 18,
+    "resource_id": "da4dfd80-9c49-4a59-8d37-d23b1bc04148",
+    "resource_url": "http://cern.ch/unosat-maps/YE/CE20150402YEM/CE20150402YEM_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-sadah-saada-governorate-yemen-may-20-2015",
+    "file_path": "data/CE20150402YEM_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 75,
+    "resource_id": "14d435b7-4524-4498-9b2a-28dce616eb36",
+    "resource_url": "http://cern.ch/unosat-maps/YE/CE20150402YEM/CE20150402YEM_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-sadah-saada-governorate-yemen-may-20-2015",
+    "file_path": "data/CE20150402YEM_gdb.zip"
+}, {
+    "n_shapefiles": 3,
+    "n_files": 18,
+    "resource_id": "d64c2734-2b27-4a3d-918e-1f5800d4e7c0",
+    "resource_url": "http://cern.ch/unosat-maps/YE/CE20150402YEM/CE20150402YEM_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-aden-aden-governorate-yemen-may-19-2015",
+    "file_path": "data/CE20150402YEM_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 75,
+    "resource_id": "df954a79-5ebb-4dcc-beb3-7456db76a1c5",
+    "resource_url": "http://cern.ch/unosat-maps/YE/CE20150402YEM/CE20150402YEM_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-aden-aden-governorate-yemen-may-19-2015",
+    "file_path": "data/CE20150402YEM_gdb.zip"
+}, {
+    "n_shapefiles": 2,
+    "n_files": 12,
+    "resource_id": "6b6da0cb-aa1d-4a9a-a1a2-b97234b6cbc1",
+    "resource_url": "http://cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_20150426.shp.zip",
+    "dataset_id": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-may-12-2015",
+    "file_path": "data/Al_Zaatari_20150426.shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 95,
+    "resource_id": "36f65f64-c081-4d4c-9cf6-ccc1f503871a",
+    "resource_url": "http://cern.ch/unosat-maps/SY/CE20130604SYR/Al_Zaatari_20150426.gdb.zip",
+    "dataset_id": "geodata-of-al-zaatari-refugee-camp-mafraq-governorate-jordan-may-12-2015",
+    "file_path": "data/Al_Zaatari_20150426.gdb.zip"
+}, {
+    "n_shapefiles": 28,
+    "n_files": 168,
+    "resource_id": "eacb7f9a-a5c2-4ae3-a341-eaf77380675d",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "file_path": "data/EQ20150425NPL_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 186,
+    "resource_id": "9d3dffb4-3615-43b6-b720-544ec1508db8",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-tuhure-pasal-area-western-region-nepal-may-08-2015",
+    "file_path": "data/EQ20150425NPL_gdb.zip"
+}, {
+    "n_shapefiles": 28,
+    "n_files": 168,
+    "resource_id": "b3702d6f-c3bb-4fbe-8dbb-966203814e0c",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015",
+    "file_path": "data/EQ20150425NPL_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 186,
+    "resource_id": "6600eb86-f058-4207-b153-830fc3a9f682",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-west-sundar-bazar-area-western-region-nepal-may-08-2015",
+    "file_path": "data/EQ20150425NPL_gdb.zip"
+}, {
+    "n_shapefiles": 28,
+    "n_files": 168,
+    "resource_id": "93f72867-b01e-49df-ad92-8f7265e1dd42",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "file_path": "data/EQ20150425NPL_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 186,
+    "resource_id": "185cb23b-d9ce-4e21-97d0-9fbab88f2162",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-manbu-area-western-region-nepal-may-07-2015",
+    "file_path": "data/EQ20150425NPL_gdb.zip"
+}, {
+    "n_shapefiles": 28,
+    "n_files": 168,
+    "resource_id": "66b4aa0d-b9fa-4cf3-bf2a-1986dec6997f",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "file_path": "data/EQ20150425NPL_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 186,
+    "resource_id": "1ddcaf11-476b-48b4-b03d-fc91fc78dd40",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-muchok-area-western-region-nepal-may-05-2015",
+    "file_path": "data/EQ20150425NPL_gdb.zip"
+}, {
+    "n_shapefiles": 28,
+    "n_files": 168,
+    "resource_id": "e6b28fc0-6aaf-4eeb-81b9-36310e25dbd2",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "file_path": "data/EQ20150425NPL_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 186,
+    "resource_id": "58ca3a0c-adf7-4acd-a014-0cc5f82649ee",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-hansapur-area-western-region-nepal-may-05-2015",
+    "file_path": "data/EQ20150425NPL_gdb.zip"
+}, {
+    "n_shapefiles": 28,
+    "n_files": 168,
+    "resource_id": "a6dceb09-d3cb-42d3-a4b2-80b6b7b6f6fc",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "file_path": "data/EQ20150425NPL_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 186,
+    "resource_id": "606b93b0-2bc9-42af-9bc9-f1cb46a2b3e6",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-daraudi-valley-western-region-nepal-may-05-2015",
+    "file_path": "data/EQ20150425NPL_gdb.zip"
+}, {
+    "n_shapefiles": 28,
+    "n_files": 168,
+    "resource_id": "33c50803-ca74-425c-83b2-2e5b799395d6",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "file_path": "data/EQ20150425NPL_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 186,
+    "resource_id": "7d469b3e-53a5-4309-a663-63140996ab76",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-bhaktapur-kathmandu-valley-nepal-april-30-2015",
+    "file_path": "data/EQ20150425NPL_gdb.zip"
+}, {
+    "n_shapefiles": 28,
+    "n_files": 168,
+    "resource_id": "e3b598d8-b1a7-4f1c-92c3-a89da10a96ba",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+    "file_path": "data/EQ20150425NPL_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 186,
+    "resource_id": "ec69b256-310d-4bfc-aabe-09559d490876",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-banepa-kathmandu-valley-nepal-april-30-2015",
+    "file_path": "data/EQ20150425NPL_gdb.zip"
+}, {
+    "n_shapefiles": 28,
+    "n_files": 168,
+    "resource_id": "7155aad5-b666-4dbd-982c-e684fefc3211",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "file_path": "data/EQ20150425NPL_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 186,
+    "resource_id": "69dbd92b-5be2-458a-b489-81dbefe69f21",
+    "resource_url": "http://cern.ch/unosat-maps/NP/EQ20150425NPL/EQ20150425NPL_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-sankhu-kathmandu-valley-nepal-april-30-2015",
+    "file_path": "data/EQ20150425NPL_gdb.zip"
+}, {
+    "n_shapefiles": 2,
+    "n_files": 12,
+    "resource_id": "04071318-53c7-4592-9340-2d41f815e73e",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/NG/CE20140617NGA/CE20140617NGA_Minawao_shp.zip",
+    "dataset_id": "geodata-of-minawao-refugee-settlement-far-north-province-cameroon-april-02-2015",
+    "file_path": "data/CE20140617NGA_Minawao_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 89,
+    "resource_id": "24ed0c37-57c8-4fd0-86a9-f18313453cbb",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/NG/CE20140617NGA/CE20140617NGA_Minawao.gdb.zip",
+    "dataset_id": "geodata-of-minawao-refugee-settlement-far-north-province-cameroon-april-02-2015",
+    "file_path": "data/CE20140617NGA_Minawao.gdb.zip"
+}, {
+    "n_shapefiles": 1,
+    "n_files": 6,
+    "resource_id": "4753550c-9c08-4d70-9809-850f1393e34c",
+    "resource_url": "http://cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_Bentiu.shp.zip",
+    "dataset_id": "geodata-of-bentiu-idp-camp-rubkona-county-unity-state-south-sudan-march-24-2015",
+    "file_path": "data/CE20131218SSD_Bentiu.shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 68,
+    "resource_id": "f50f1d72-76da-4dfe-ae9f-e912cd1ab9a9",
+    "resource_url": "http://cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_Bentiu.gdb.zip",
+    "dataset_id": "geodata-of-bentiu-idp-camp-rubkona-county-unity-state-south-sudan-march-24-2015",
+    "file_path": "data/CE20131218SSD_Bentiu.gdb.zip"
+}, {
+    "n_shapefiles": 1,
+    "n_files": 6,
+    "resource_id": "4f3bee50-1f88-463f-a13d-63e2ebb6892a",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_MinkamanFEB2015_shp.zip",
+    "dataset_id": "geodata-of-minkaman-idp-site-awerial-county-lakes-state-south-sudan-march-11-2015",
+    "file_path": "data/CE20131218SSD_MinkamanFEB2015_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 68,
+    "resource_id": "5682718a-0f8d-40a9-9166-baadb02a5342",
+    "resource_url": "http://unosat-maps.web.cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_MinkamanFEB2015.gdb.zip",
+    "dataset_id": "geodata-of-minkaman-idp-site-awerial-county-lakes-state-south-sudan-march-11-2015",
+    "file_path": "data/CE20131218SSD_MinkamanFEB2015.gdb.zip"
+}, {
+    "n_shapefiles": 1,
+    "n_files": 6,
+    "resource_id": "c810af19-9540-46a7-8211-c826af981d45",
+    "resource_url": "http://cern.ch/unosat-maps/SY/CE20130604SYR/Kobane_20150122_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-kobane-aleppo-governorate-syria-march-06-2015",
+    "file_path": "data/Kobane_20150122_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 67,
+    "resource_id": "332f0dc6-8028-4241-b2b7-5cd31c81e83a",
+    "resource_url": "http://cern.ch/unosat-maps/SY/CE20130604SYR/Kobane_20150122_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-kobane-aleppo-governorate-syria-march-06-2015",
+    "file_path": "data/Kobane_20150122_gdb.zip"
+}, {
+    "n_shapefiles": 1,
+    "n_files": 6,
+    "resource_id": "21f6f76e-31aa-4936-b02b-b26a2bb54912",
+    "resource_url": "http://cern.ch/unosat-maps/SY/CE20130604SYR/Kobane_20150122_shp.zip",
+    "dataset_id": "geodata-of-neighborhood-damage-assessment-kobane-aleppo-governorate-syria-march-06-2015",
+    "file_path": "data/Kobane_20150122_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 67,
+    "resource_id": "6584dffa-87b1-404b-a0f7-10cc9dc57714",
+    "resource_url": "http://cern.ch/unosat-maps/SY/CE20130604SYR/Kobane_20150122_gdb.zip",
+    "dataset_id": "geodata-of-neighborhood-damage-assessment-kobane-aleppo-governorate-syria-march-06-2015",
+    "file_path": "data/Kobane_20150122_gdb.zip"
+}, {
+    "n_shapefiles": 1,
+    "n_files": 6,
+    "resource_id": "ed81a15d-e1f3-4709-8996-b33dcd73b159",
+    "resource_url": "http://cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Tikrit_shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-tikrit-salah-ad-din-governorate-iraq-february-24-2015",
+    "file_path": "data/CE20140613IRQ_Tikrit_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 73,
+    "resource_id": "a4db234d-1d1f-4330-b374-c879131a00b1",
+    "resource_url": "http://cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Tikrit_gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-tikrit-salah-ad-din-governorate-iraq-february-24-2015",
+    "file_path": "data/CE20140613IRQ_Tikrit_gdb.zip"
+}, {
+    "n_shapefiles": 1,
+    "n_files": 6,
+    "resource_id": "7041fccb-8e3d-46f8-8199-331104b24472",
+    "resource_url": "http://cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Baiji_Shp.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-baiji-salah-ad-din-governorate-iraq-february-20-2015",
+    "file_path": "data/CE20140613IRQ_Baiji_Shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 75,
+    "resource_id": "70781983-58a1-47ea-a8aa-068a56161915",
+    "resource_url": "http://cern.ch/unosat-maps/IQ/CE20140613IRQ/CE20140613IRQ_Baiji.gdb.zip",
+    "dataset_id": "geodata-of-damage-assessment-of-baiji-salah-ad-din-governorate-iraq-february-20-2015",
+    "file_path": "data/CE20140613IRQ_Baiji.gdb.zip"
+}, {
+    "n_shapefiles": 16,
+    "n_files": 96,
+    "resource_id": "67daa937-f0bf-48cd-9c87-5f1456ef3126",
+    "resource_url": "http://cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD_shp.zip",
+    "dataset_id": "geodata-of-idp-shelters-in-un-house-compound-juba-south-sudan-february-20-2015",
+    "file_path": "data/CE20131218SSD_shp.zip"
+}, {
+    "n_shapefiles": 0,
+    "n_files": 359,
+    "resource_id": "ed4482ec-d98b-4981-a0fc-54a6cb1a536b",
+    "resource_url": "http://cern.ch/unosat-maps/SS/CE20131218SSD/CE20131218SSD.gdb.zip",
+    "dataset_id": "geodata-of-idp-shelters-in-un-house-compound-juba-south-sudan-february-20-2015",
+    "file_path": "data/CE20131218SSD.gdb.zip"
+}]

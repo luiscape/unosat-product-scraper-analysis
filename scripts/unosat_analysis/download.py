@@ -57,8 +57,9 @@ def FetchPackageList(organization_id, verbose=False, **kwargs):
 
 
 
-def FetchResourceInfo(package_id, verbose=False, **kwargs):
-  '''Query HDX for a list of datasets that belong to an organization.'''
+def FetchResourceInfo(package_id, preferred_format='ZIPPED SHAPEFILE', verbose=False, **kwargs):
+  '''Query HDX for a list of datasets that belong to an organization.
+     Only fetches resources that match a preferred file format.'''
 
   #
   # Fetch configuration.
@@ -100,8 +101,8 @@ def FetchResourceInfo(package_id, verbose=False, **kwargs):
     data = r.json()
     package_array = []
     for resource in data['result']['resources']:
-      if resource['format'] == 'ZIPPED SHAPEFILE':
-        d = { 'id': package_id, 'resource_url': resource['url'] }
+      if resource['format'] == preferred_format:
+        d = { 'resource_id': resource['id'], 'dataset_id': package_id, 'resource_url': resource['url'] }
         package_array.append(d)
 
     return package_array
