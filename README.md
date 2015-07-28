@@ -35,7 +35,7 @@ setup:
   bash bin/setup.sh;
 ```
 
-Those will produce results inside the `[output/](/output)` folder.
+Those will produce results inside the [`output/`](/output) folder.
 
 
 ### Editing Analysis File
