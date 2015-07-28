@@ -17,4 +17,15 @@ setup:
   bash bin/setup.sh;
 ```
 
-Those will produce results inside the `data/` folder.
+Those will produce results inside the `[output/](/output)` folder.
+
+
+### Editing Analysis File
+The analysis output is generated with a combination of `R` scripts and R markdown. Assuming you have R installed, run the following: 
+
+```shell
+$ make install_edit
+$ make edit
+```
+
+A live editor will start, allowing you to to edit the analysis report.
