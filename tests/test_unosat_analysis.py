@@ -12,34 +12,35 @@ import unittest
 from mock import patch
 
 # program
+import unosat_analysis.export as Export
 import unosat_analysis.process as Process
 import unosat_analysis.download as Download
 
 
-class CheckQueryFunctions(unittest.TestCase):
-  '''Unit tests checking if the collector is working as expected.'''
+# class CheckQueryFunctions(unittest.TestCase):
+#   '''Unit tests checking if the collector is working as expected.'''
 
-  #
-  # Organization queries.
-  #
-  def test_query_hdx(self):
-    assert Download.FetchPackageList('foo') == False
-    assert Download.FetchPackageList('hdx') != False
+#   #
+#   # Organization queries.
+#   #
+#   def test_query_hdx(self):
+#     assert Download.FetchPackageList('foo') == False
+#     assert Download.FetchPackageList('acled') != False
 
-  def test_json_processing(self):
-    d = Download.FetchPackageList('hdx')
-    assert type(d) == list
+#   def test_json_processing(self):
+#     d = Download.FetchPackageList('acled')
+#     assert type(d) == list
 
-  #
-  # Package queries.
-  #
-  def test_query_hdx(self):
-    assert Download.FetchResourceInfo('foo') == False
+#   #
+#   # Package queries.
+#   #
+#   def test_query_hdx(self):
+#     assert Download.FetchResourceInfo('foo') == False
 
-  def test_package_query(self):
-    i = 'geodata-of-damage-assessment-of-sanaa-city-sanaa-governorate-yemen-june-03-2015'
-    d = Download.FetchResourceInfo(i)
-    assert type(d) == list
+#   def test_package_query(self):
+#     i = 'geodata-of-damage-assessment-of-sanaa-city-sanaa-governorate-yemen-june-03-2015'
+#     d = Download.FetchResourceInfo(i)
+#     assert type(d) == list
 
 
 class CheckProcessFunctions(unittest.TestCase):
@@ -48,3 +49,11 @@ class CheckProcessFunctions(unittest.TestCase):
   def test_download_wrapper(self):
     l = ['foo', 'bar']
     assert Process.DownloadAndProcess(l) != False
+
+
+class CheckExportFunctions(unittest.TestCase):
+  '''Tests the export functions.'''
+
+  def test_json_to_csv(self):
+    assert Export.WriteCSV() != False
+    assert Export.WriteCSV('foo.json') == False

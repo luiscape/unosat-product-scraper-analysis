@@ -34,21 +34,71 @@ def WriteOutput(data=None, directory='output', write_json=False, write_csv=False
 
   if write_csv:
     try:
-      print '%s Writting CSV file.' % item('prompt_bullet')
-      p = os.path.join(directory, 'analysis.csv')
-      with open(p,'wb') as f:
+      output_path = os.path.join(directory, 'analysis.csv')
+      with open(output_path, 'wb') as f:
         writter = csv.writer(f, delimiter=',', quotechar='"')
-     
+
         i = 0
         for row in data:
           if i == 0:
             writter.writerow([ k for k in row.keys() ])
+            writter.writerow([ k for k in row.values() ])
+            i += 1
+
           else:
             writter.writerow([ v for v in row.values() ])
             i += 1
-            myfile.flush()
-
+            f.flush()
+    
     except Exception as e:
-      print '%s Failed to write CSV.' % item('prompt_error')
+      print '%s Could not write CSV file.' % item('prompt_error')
       print e
       return False
+
+
+
+def WriteCSV(json_path='output/analysis.json', verbose=True):
+  '''Writes a CSV output based on a JSON input.'''
+  
+  #
+  # Configuring path.
+  #
+  data_dir = os.path.split(json_path)[0]
+  output_path = os.path.join(data_dir, 'analysis.csv')
+
+  #
+  # Read json file. 
+  #
+  try:
+    with open(json_path) as data_file:    
+      data = json.load(data_file)
+
+  except Exception as e:
+    print '%s Could not ope JSON file.' % item('prompt_error')
+    print e
+    return False
+  
+  #
+  # Writting file.
+  #
+  try:
+    with open(output_path, 'wb') as f:
+      writter = csv.writer(f, delimiter=',', quotechar='"')
+
+      i = 0
+      for row in data:
+        if i == 0:
+          writter.writerow([ k for k in row.keys() ])
+          writter.writerow([ k for k in row.values() ])
+          i += 1
+
+        else:
+          writter.writerow([ v for v in row.values() ])
+          i += 1
+          f.flush()
+  
+  except Exception as e:
+    print '%s Could not write CSV file.' % item('prompt_error')
+    print e
+    return False
+

@@ -58,22 +58,34 @@ def FetchZipInformation(package_dictionary, verbose=False):
   # Collect information for a file
   # on a dictionary and return.
   #
-  with ZipFile(file_path, 'r') as f:
-    file_info = f.infolist()
+  try:
+    with ZipFile(file_path, 'r') as f:
+      file_info = f.infolist()
 
-    i = 0
-    for file in file_info:
-      if file.filename.endswith('shp'):
-        if verbose:
-          print file.filename
-        i += 1
+      i = 0
+      for file in file_info:
+        if file.filename.endswith('shp'):
+          if verbose:
+            print file.filename
+          i += 1
 
 
+      package_dictionary['file_path'] = file_path
+      package_dictionary['n_files'] = len(file_info)
+      package_dictionary['n_shapefiles'] = i
+
+  except Exception as e:
+    print '%s Failed to read ZIP package %s. Skipping.' % (item('prompt_error'), file_path)
+
+    #
+    # Generating missing data.
+    #
     package_dictionary['file_path'] = file_path
-    package_dictionary['n_files'] = len(file_info)
-    package_dictionary['n_shapefiles'] = i
+    package_dictionary['n_files'] = None
+    package_dictionary['n_shapefiles'] = None
 
-    return package_dictionary
+  
+  return package_dictionary
     
 
 

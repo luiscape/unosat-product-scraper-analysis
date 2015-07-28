@@ -19,8 +19,10 @@ def Main():
   #
   # Fetch resource list.
   # And conduct analysis.
+  # param: delete_files will delete each file after download.
+  # param: test will the whole analysis on a single dataset
   #
-  resource_list = DownloadAndProcess(delete_files=False, test=False)
+  resource_list = DownloadAndProcess(delete_files=True, test=False)
   if resource_list == False:
   	print '%s Analysis failed.' % item('prompt_error')
   	return False

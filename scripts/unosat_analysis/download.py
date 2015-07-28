@@ -32,10 +32,10 @@ def FetchPackageList(organization_id, verbose=False, **kwargs):
     # add simple HTTP authorization.
     #
     if config['production']:
-      r = requests.get(u)
+      r = requests.get(u, verify=True)  # turns off SSL certificate verification.
 
     else:
-      r = requests.get(u, auth=(config['auth'][0], config['auth'][1]))
+      r = requests.get(u, auth=(config['auth'][0], config['auth'][1]), verify=True)
 
   except Exception as e:
     print '%s There was a connection error. Host %s is now known.' % (item('prompt_error'), u)
@@ -79,10 +79,10 @@ def FetchResourceInfo(package_id, preferred_format='ZIPPED SHAPEFILE', verbose=F
     # add simple HTTP authorization.
     #
     if config['production']:
-      r = requests.get(u)
+      r = requests.get(u, verify=True)  # turns-off SSL certificate verification
 
     else:
-      r = requests.get(u, auth=(config['auth'][0], config['auth'][1]))
+      r = requests.get(u, auth=(config['auth'][0], config['auth'][1]), verify=True)
 
   except Exception as e:
     print '%s There was a connection error. Host %s is now known.' % (item('prompt_error'), u)
