@@ -5,7 +5,7 @@ Series of scripts that analyze [UNOSAT datasets on HDX](https://data.hdx.rwlabs.
 
 ### Results and Recommendations
 
-![Figure 1: shapefiles per resource](analysis-copy_files/figure-html/unnamed-chunk-2-1.png) 
+![Figure 1: shapefiles per resource](output/analysis-copy_files/figure-html/unnamed-chunk-2-1.png) 
 
 
 Figure 1 above shows that at least 16 resources contain single shapefiles. That means that, on their respective datasets, a geo-preview will very likely not cause confusion to the users. For a more detailed review, please refer to the [analysis page](output/analysis.md).
