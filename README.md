@@ -1,4 +1,4 @@
-### Analysis of UNOSAT Products
+### UNOSAT Geo-preview Assessment
 Series of scripts that analyze [UNOSAT datasets on HDX](https://data.hdx.rwlabs.org/organization/un-operational-satellite-appplications-programme-unosat?sort=metadata_modified+desc).
 
 [![Build Status](https://travis-ci.org/luiscape/unosat-product-scraper-analysis.svg)](https://travis-ci.org/luiscape/unosat-product-scraper-analysis) [![Coverage Status](https://coveralls.io/repos/luiscape/unosat-product-scraper-analysis/badge.svg?branch=master&service=github)](https://coveralls.io/github/luiscape/unosat-product-scraper-analysis?branch=master)
