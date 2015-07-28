@@ -1,0 +1,11 @@
+unnamed-chunk-1	library
+unnamed-chunk-2	>	%>%	aes	count	filter	geom_bar	geom_text	ggplot	group_by	labs	n	n_shapefiles	read.csv	scale_x_continuous	summarize	theme	theme_bw
+unnamed-chunk-3	
+e	
+ech	read.csv
+echo	
+fi	%>%	aes	count	geom_bar	ggplot	group_by	n	n_shapefiles	read.csv	scale_x_continuous	summarize	theme_bw
+fig.	%>%	aes	count	geom_bar	ggplot	group_by	n	n_shapefiles	read.csv	scale_x_continuous	summarize	theme_bw
+fig.wi	%>%	aes	count	geom_bar	ggplot	group_by	n	n_shapefiles	read.csv	scale_x_continuous	summarize	theme_bw
+fig.wid	%>%	aes	count	geom_bar	ggplot	group_by	n	n_shapefiles	read.csv	scale_x_continuous	summarize	theme_bw
+fig.width	%>%	aes	count	geom_bar	ggplot	group_by	n	n_shapefiles	read.csv	scale_x_continuous	summarize	theme_bw
